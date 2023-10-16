@@ -122,4 +122,4 @@
   },
   "protected": true,
   "url": "https://foundryvtt.com/packages/wfrp4e-core/",
-  "manifest": "https://foundry-c7-manifests.s3.us-east-2.amazonaws.com/wfrp4e-core/module.json"
+  "manifest": "https://github.com/Zelefas/Test/blob/main/module.json"
