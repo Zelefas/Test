@@ -1,7 +1,7 @@
 {
-  "id": "wfrp5e-core",
-  "name": "wfrp5e-core",
-  "title": "WFRP5e - Core Rulebook",
+  "id": "wfrp4e-core",
+  "name": "wfrp4e-core",
+  "title": "WFRP4e - Core Rulebook",
   "description": "Official Core Rulebook content for the Warhammer Fantasy 4th Edition System. Includes all the tables, rules, bestiary, and lore you need to immerse your players into the perilous world of Warhammer.",
   "version": "4.0.1",
   "authors": [
@@ -19,8 +19,8 @@
   "relationships": {
     "systems": [
       {
-        "id": "wfrp5e",
-        "type": "module",
+        "id": "wfrp4e",
+        "type": "system",
         "manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json"
       }
     ]
@@ -120,5 +120,6 @@
     "verified": 11,
     "maximum": 11
   },
-  "protected": false
-}
+  "protected": true,
+  "url": "https://foundryvtt.com/packages/wfrp4e-core/",
+  "manifest": "https://foundry-c7-manifests.s3.us-east-2.amazonaws.com/wfrp4e-core/module.json"
