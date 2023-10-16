@@ -47,7 +47,7 @@
     }
   ],
   "url": "https://github.com/fantasycalendar/FoundryVTT-MinionManager",
-  "manifest": "https://github.com/Zelefas/Test/view/download/module.json",
+  "manifest": "https://github.com/Zelefas/Test/blob/download/module.json,
   "download": "https://github.com/fantasycalendar/FoundryVTT-MinionManager/releases/download/1.0.5/module.zip",
   "license": "LICENSE",
   "readme": "README.md"
