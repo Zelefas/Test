@@ -1,0 +1,123 @@
+{
+  "id": "wfrp4e-core",
+  "name": "wfrp4e-core",
+  "title": "WFRP4e - Core Rulebook",
+  "description": "Official Core Rulebook content for the Warhammer Fantasy 4th Edition System. Includes all the tables, rules, bestiary, and lore you need to immerse your players into the perilous world of Warhammer.",
+  "version": "4.0.1",
+  "authors": [
+    {
+      "name": "Moo Man",
+      "email": "russellt@cubicle7games.com",
+      "discord": "moo.man"
+    },
+    {
+      "name": "Published by Cubicle 7",
+      "url": "https://cubicle7games.com",
+      "email": "info@cubicle7games.com"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "scripts": [
+    "wfrp4e.js",
+    "initialization.js"
+  ],
+  "styles": [
+    "styles.css"
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Bestiary (Core Rulebook)",
+      "system": "wfrp4e",
+      "path": "./packs/actors",
+      "type": "Actor",
+      "banner": "./modules/wfrp4e-core/assets/banners/squig.webp"
+    },
+    {
+      "name": "items",
+      "label": "Items (Core Rulebook)",
+      "system": "wfrp4e",
+      "path": "./packs/items",
+      "type": "Item",
+      "banner": "./modules/wfrp4e-core/assets/banners/to-market.webp"
+    },
+    {
+      "name": "journals",
+      "label": "Journals (Core Rulebook)",
+      "path": "./packs/journals",
+      "type": "JournalEntry",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-core/assets/banners/coachman.webp"
+    },
+    {
+      "label": "Tables (Core Rulebook)",
+      "type": "RollTable",
+      "name": "tables",
+      "path": "packs/tables",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-core/assets/banners/reikland-council.webp"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (Core Rulebook)",
+      "path": "./packs/scenes",
+      "type": "Scene",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-core/assets/banners/bridge.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Core Rulebook",
+      "sorting": "m",
+      "color": "#465967",
+      "packs": [
+        "actors",
+        "items",
+        "journals",
+        "tables",
+        "scenes"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "initializationPacks": [
+      "wfrp4e-core.journals",
+      "wfrp4e-core.scenes",
+      "wfrp4e-core.tables"
+    ],
+    "folder": {
+      "name": "Core Rulebook",
+      "sorting": "m",
+      "color": "#465967"
+    }
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "./modules/wfrp4e-core/assets/setup.webp"
+    }
+  ],
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": 11,
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 11
+  },
+}
